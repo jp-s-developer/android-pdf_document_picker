@@ -43,6 +43,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_next).setOnClickListener {
             getPermission()
         }
+        findViewById<Button>(R.id.btn_next_coordinate).setOnClickListener {
+            startActivity(Intent(this, CoordinatorLayoutActivity::class.java))
+        }
+        findViewById<Button>(R.id.btn_next_bottom_coordinate).setOnClickListener {
+            startActivity(Intent(this, BottomSheetCoordinatorLayoutActivity::class.java))
+        }
     }
 
 

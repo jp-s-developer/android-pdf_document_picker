@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">pdfdocument</string>
     <string name="next">Next!</string>
+    <string name="move_to_coordinate_layout">move to coordinate layout</string>
+    <string name="hyundai_verna">hyundai_verna</string>
+    <string name="roundation">roundation</string>
+    <string name="bottom_sheet_view_coordinate">bottom sheet view coordinate</string>
+    <string name="bottom_view">Bottom view</string>
 </resources>
